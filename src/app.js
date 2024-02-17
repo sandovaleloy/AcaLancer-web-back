@@ -1,7 +1,7 @@
 import Express from "express";
 import cors from "cors";
-import db from "./utils/database";
-import initModels from "./models/initModels";
+import db from "./utils/database.js";
+import initModels from "./models/initModels.js";
 import "dotenv/config";
 
 initModels();
